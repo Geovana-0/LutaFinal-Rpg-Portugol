@@ -168,7 +168,7 @@ funcao rotaA_ObservarEConfronto()
 
 	inteiro escolha_poder
 	leia(escolha_poder)
-	 limpa ()
+	 limpa()
 
 	se (escolha_poder == 2)
 	{
