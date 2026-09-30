@@ -1,8 +1,8 @@
 // substituir escolhas8
 
-cadeia art_definido = "o"
-cadeia pron_pessoal = "ele"
-cadeia desinencia_o = "o"
+ cadeia art_definido = "o"
+   cadeia pron_pessoal = "ele"
+   cadeia desinencia_o = "o"
 
 inteiro hp_jogador = 100
 inteiro hp_richard = 150
@@ -27,7 +27,7 @@ funcao carregarPronomes()
 		art_definido = "o"
 		pron_pessoal = "ele"
 		desinencia_o = "o"
-	}
+	  }
 }
 
 funcao escolhas8()
@@ -36,7 +36,7 @@ funcao escolhas8()
 }
 
 funcao inicioLutaFinal()
-{
+   {
 	carregarPronomes()
 
 	escLen("O CONFRONTO FINAL\n\n")
@@ -52,14 +52,14 @@ funcao inicioLutaFinal()
 
 	limpa()
 
-	se (escolha_inicial == 1)
-	{
+se (escolha_inicial == 1)
+	 {
 		rotaA_AtacarSurpresa()
-	}
+	 }
 	senao se (escolha_inicial == 2)
-	{
+	    {
 		rotaB_EmpurrarOnix()
-	}
+	    }
 	senao
 	{
 		escLen("Escolha inválida.\n")
@@ -93,7 +93,7 @@ funcao rotaA_AtacarSurpresa()
 	senao
 	{
 		escLen("-- Ah, sim, você está ótimo. - " + nome + " murmurou para si mesmo enquanto se levantava da queda, suando de desespero.\n\n")
-	}
+	 }
 
 	escLen("Richard apenas vira a cabeça de lado lentamente. A expressão era de pura antipatia.\n")
 	escLen("Um movimento brusco! Onix apenas enxergou um borrão sumindo até sentir a presença por trás.\n")
@@ -168,7 +168,7 @@ funcao rotaA_ObservarEConfronto()
 
 	inteiro escolha_poder
 	leia(escolha_poder)
-	limpa()
+	 limpa ()
 
 	se (escolha_poder == 2)
 	{
@@ -291,11 +291,11 @@ funcao exibirGameOver()
 }
 
 funcao exibirVitoria()
-{
+  {
 	escLen("FIM DA HISTÓRIA.\n")
 	U.aguarde(2000)
 	limpa()
-}
+  }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
